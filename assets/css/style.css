@@ -1,0 +1,38 @@
+div.col-xs-8{
+	background-color:orange;
+	margin-bottom: 0;
+}
+
+div > h1{
+	padding:10% 35%;
+	color:purple;
+	font-style: italic;
+	text-shadow: 2px 2px 8px #FF0000;
+}
+
+div.col-xs-4{
+	background-color:lightgrey;
+	height:600px;
+	border: dashed yellow 1px;
+	margin-bottom:20px;
+	padding:5% 5%;
+	text-align: center;
+	color:purple;
+}
+
+.row{
+	background-color:black;
+}
+
+section > p{
+	margin-bottom:0;
+}
+
+section > div{
+	margin-top:0;
+}
+
+img{
+	width:200px;
+	height:200px;
+}

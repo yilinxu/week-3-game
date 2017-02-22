@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Hangman Game</title>
+  </head>
+
+  <body>
+
+  	<div class="container content">
+  		<div class="row">
+  			<div class="col-xs-2"></div>
+  			<div class ="col-xs-8"><h1>HANGMAN</h1></div>
+  			<div class="col-xs-2"></div>
+  		</div>
+  	</div>
+
+  	<div class="container content">
+  		<div class="row">
+  			<div class="col-xs-2"></div>
+
+  			<div class="col-xs-4">
+  				<img src = "assets/images/mountain.jpg">
+  			</div>
+
+  			<div class="col-xs-4">
+  				<p>PRESS ANY KEY TO GET STARTED!</p>
+
+  				<section>
+  					<p>WINS</p>
+  					<div id="win">0</div>
+  				</section>
+				<br>
+
+				<section>
+  					<p>LOSSES</p>
+  					<div id="loss">0</div>
+  				</section>
+				<br>
+
+  				<section>
+  					<p>Current Word</p>
+  					<div id="current_word">- - - - - -</div>
+  				</section>
+  				<br>
+
+  				<section>
+  					<p>NUMBER OF GUESSES REMAINING</p>
+  					<div id="number">10</div>
+  				</section>
+  				<br>
+
+  				<section>
+  					<p>LETTERS ALREADY GUESSED</p>
+  					<div id="letters">- - - - - -</div>
+  				</section>
+  			</div>
+
+  			<div class="col-xs-2"></div>
+  		</div>
+  	</div>
+  
+	<script src="assets/javascript/game.js"></script>
+  </body>
