@@ -1,4 +1,4 @@
-var words = ["plant", "bicycle", "building", "lunch", "water", "bread", "swimming", "sunsetsun", "liberal", "exercise"];
+var words = ["plant", "bicycle", "building", "lunch", "water", "bread", "swimming", "sunset", "liberal", "exercise"];
 var win = 0 , loss = 0, index = 0, number_of_guess = 10;
 var correct = [], incorrect = [];
 var target_alphabet;
