@@ -1,27 +1,32 @@
 div.col-xs-8{
-	background-color:orange;
+	background: url("../images/peppapig.jpg");
+	background-position: center;
+	background-repeat:no-repeat;
+	background-color:yellow;
+	background-size:60%;
 	margin-bottom: 0;
 }
 
 div > h1{
 	padding:10% 35%;
-	color:purple;
+	color:blue;
+	font-size: 48px;
 	font-style: italic;
 	text-shadow: 2px 2px 8px #FF0000;
 }
 
 div.col-xs-4{
-	background-color:lightgrey;
+	background-color:lightblue;
 	height:600px;
 	border: dashed yellow 1px;
 	margin-bottom:20px;
-	padding:5% 5%;
+	padding-top:5%;
 	text-align: center;
 	color:purple;
 }
 
 .row{
-	background-color:black;
+	background-color:pink;
 }
 
 section > p{
@@ -33,6 +38,7 @@ section > div{
 }
 
 img{
-	width:200px;
+	width:300px;
 	height:200px;
+	margin-top:50px;
 }
